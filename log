@@ -113,3 +113,9 @@ test.c:6:8: warning: '_strdup' redeclared without dllimport attribute: previous 
     6 | char * _strdup(const char * str) {
       |        ^~~~~~~
 05a715b
+Fri, May  2, 2025 12:56:37 AM: 
+ treemap.c | 42 +++++++++++++++++++++++-------------------
+ 1 file changed, 23 insertions(+), 19 deletions(-)
+ tests:  11|6
+total_score: 15/70
+0dc213a
