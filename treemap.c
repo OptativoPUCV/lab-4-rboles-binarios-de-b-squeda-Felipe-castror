@@ -262,8 +262,8 @@ Pair * firstTreeMap(TreeMap * tree)
     }
 
     tree -> current = current;
-    
-    return NULL;
+
+    return current -> pair;
 }
 
 Pair * nextTreeMap(TreeMap * tree) {
