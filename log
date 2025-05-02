@@ -68,3 +68,6 @@ test.c:6:8: warning: '_strdup' redeclared without dllimport attribute: previous 
     6 | char * _strdup(const char * str) {
       |        ^~~~~~~
 00d75f5
+Fri, May  2, 2025 12:50:59 AM: 
+ tests:  0|0
+b2f692d
