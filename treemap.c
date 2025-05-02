@@ -269,7 +269,7 @@ Pair * upperBound(TreeMap * tree, void* key)
             current = current -> left;
         }
 
-        else current = current -> left;
+        else current = current -> right;
     }
 
     if (aux != NULL)
