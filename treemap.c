@@ -163,12 +163,12 @@ void removeNode(TreeMap * tree, TreeNode* node)
         node->pair->key = minimoNode->pair->key;
         node->pair->value = minimoNode->pair->value;
 
-        if (minimoNode -> parent -> left == )
+        if (minimoNode -> parent -> left == minimoNode )
         {
             minimoNode -> parent -> left = minimoNode -> right;
             minimoNode -> right -> parent = minimoNode -> right;
 
-            
+
         }
     }
 
