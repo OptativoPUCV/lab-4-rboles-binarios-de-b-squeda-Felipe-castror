@@ -145,14 +145,13 @@ void removeNode(TreeMap * tree, TreeNode* node)
         {
             if (node -> parent -> left == node)
             {
-                node -> parent -> left = node;
+                node -> parent -> left = hijo;
             }
-            else node -> parent -> left = node;
+            else node -> parent -> left = hijo;
             
 
             hijo -> parent = node -> parent;
 
-            free(node ->pair);
             free(node);
             return;
         }
